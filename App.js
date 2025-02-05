@@ -1,25 +1,47 @@
 import logo from './logo.svg';
 
 import './App.css';
-import React from 'react';
-import Navbar from './components/Navbar'
-import Main from './components/Main';
-import Sidebar1 from './components/Sidebar1';
-import Sidebar2 from './components/Sidebar2';
-import Footer from './components/Footer';
-const App = () => {
-  return (
-    <div classname = 'app'>
-      <Navbar/>
-      <Main/>
-      <div  className='sidebar'>
-      <Sidebar1/>
-      <Sidebar2/>
+
+import React, { Component } from 'react'
+import FBDPropEx from './propsex/FBCPropEx'
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        {/* <CBCPropEx
+        username="siddu"
+        age={20}
+        hobbies={["cooking", "eating"]}
+        address={{city:"RCPM", area:"Kamma vari savaram"}}
+        sendFun={function(){alert("HELLo ji ")}}
+        /> */}
+        <FBDPropEx
+        username ="siddu"
+        isMarried={false}
+        hobbies={["eat"]}/>
       </div>
-      <Footer/>
-    </div>
-  )
+    )
+  }
 }
+// import Navbar from './components/Navbar'
+// import Main from './components/Main';
+// import Sidebar1 from './components/Sidebar1';
+// import Sidebar2 from './components/Sidebar2';
+// import Footer from './components/Footer';
+// const App = () => {
+//   return (
+//     <div classname = 'app'>
+//       <Navbar/>
+//       <Main/>
+//       <div  className='sidebar'>
+//       <Sidebar1/>
+//       <Sidebar2/>
+//       </div>
+//       <Footer/>
+//     </div>
+//   )
+// }
 
 // function App() {
  
@@ -46,9 +68,9 @@ const App = () => {
 //   );
 // }
 
-// export default App;
+//  export default App;
 
 
 
 
-export default App
+// export default App
