@@ -1,0 +1,23 @@
+.heading{
+    color: red;
+    background-color: blue;
+}
+*{
+    text-align: center;
+}
+.font-style{
+    font-family: 'Times New Roman', Times, serif;
+}
+.msg{
+    background-color: rgb(48, 134, 171);
+    color: rgb(117, 0, 144);
+}
+
+.msg1{
+    background-color:rgb(125, 141, 221);
+    color: rgb(130, 233, 199);
+}
+.msg2{
+    background-color: rgb(15, 47, 43);
+    color: rgb(0, 255, 60);
+}

@@ -126,18 +126,66 @@
 // }
 
 // export default App
-import React, { Component } from 'react';
-// import CBCStateEx from './propsex/stateexample/CBCStateEx';
-import FBCStateEx from './propsex/stateexample/FBCStateEx';
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <FBCStateEx>
+// import React, { Component } from 'react';
+// // import CBCStateEx from './propsex/stateexample/CBCStateEx';
+// import FBCStateEx from './propsex/stateexample/FBCStateEx';
+//  class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <FBCStateEx>
 
-        </FBCStateEx>
-      </div>
-    )
-  }
+//         </FBCStateEx>
+//       </div>
+//     )
+//   }
+// }
+// export default App;
+
+// import React, { Component } from 'react';
+// // import CBCStateEx from './stateexample/CBCStateEx';
+// import FBCStateEx from './stateexample/FBCStateEx';
+// class App extends Component {
+//     render() {
+//         render() {
+//             <div>
+//                 <FBCStateEx></FBCStateEx>
+//             </div>
+//         );
+//     }
+// }
+
+// export default App;
+
+// import React, { Component } from 'react';
+// import FunctionalComponent from './components/FunctionalComponent';
+
+// class App extends Component {
+//   render() {
+//     return(
+//       <div><FunctionalComponent> 
+//         </FunctionalComponent>
+//         </div>
+//     ); 
+//   }}
+//   export default App;  
+
+// 
+
+
+import logo from './logo.svg'
+import './App.css';
+import MyForm from './components/MyForm';
+
+
+
+function App() {
+  return (
+    <div className="App">
+     <MyForm></MyForm>
+     </div>
+  );
 }
+
+export default App;
 
