@@ -173,19 +173,30 @@
 // 
 
 
-import logo from './logo.svg'
-import './App.css';
-import MyForm from './components/MyForm';
+// import logo from './logo.svg'
+// import './App.css';
+// import MyForm from './components/MyForm';
 
 
 
-function App() {
-  return (
-    <div className="App">
-     <MyForm></MyForm>
-     </div>
-  );
+// function App() {
+//   return (
+//     <div className="App">
+//      <MyForm></MyForm>
+//      </div>
+//   );
+// }
+
+// export default App;
+
+
+import UseEffectEx from "./hookexamples/UseEffectEx";
+
+function App(){
+  return(
+    <div> 
+      <UseEffectEx> </UseEffectEx>
+    </div>
+  )
 }
-
 export default App;
-
